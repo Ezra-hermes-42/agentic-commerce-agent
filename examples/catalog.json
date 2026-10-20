@@ -1,0 +1,33 @@
+{
+  "currency": "USD",
+  "products": [
+    {
+      "id": "widget-a",
+      "name": "Widget A",
+      "unit_price_cents": 1299,
+      "currency": "USD",
+      "tax_rate_bps": 825
+    },
+    {
+      "id": "widget-b",
+      "name": "Widget B",
+      "unit_price_cents": 450,
+      "currency": "USD",
+      "tax_rate_bps": 825
+    },
+    {
+      "id": "gizmo-pro",
+      "name": "Gizmo Pro",
+      "unit_price_cents": 24900,
+      "currency": "USD",
+      "tax_rate_bps": 825
+    },
+    {
+      "id": "support-hour",
+      "name": "Support Hour",
+      "unit_price_cents": 8500,
+      "currency": "USD",
+      "tax_rate_bps": 0
+    }
+  ]
+}

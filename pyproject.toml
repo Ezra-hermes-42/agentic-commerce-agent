@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-commerce-agent"
+version = "0.1.0"
+description = "Reference implementation of an agentic commerce loop: quote, invoice, PayPal order, capture and ledger reconciliation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Ezra Labs (Pty) Ltd" }]
+keywords = ["agentic-commerce", "ai-agents", "paypal", "payments", "invoicing"]
+dependencies = []
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Office/Business :: Financial :: Accounting",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://github.com/Ezra-hermes-42/agentic-commerce-agent"
+Issues = "https://github.com/Ezra-hermes-42/agentic-commerce-agent/issues"
+
+[tool.setuptools]
+packages = ["acagent"]
+
+[tool.setuptools.package-data]
+acagent = ["py.typed"]
